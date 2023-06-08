@@ -1,0 +1,71 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+$cl_b: #1B054A;
+$cl_w: #FFFFFF;
+$cl_or: #FAD826;
+
+.main_page {
+  background-color: $cl_b;
+  width: 100%;
+  height: 200px;
+  margin: 0px auto;
+}
+
+.header {
+  text-align: center;
+  padding: 3.5%;
+
+  h1 {
+    /* // DUMBBELL'S SPORT GOODS It's all about the gym */
+    color: $cl_w;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+
+    span {
+      /* // DUMBBELL'S SPORT GOODS It's all about the gym */
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 59px;
+      color: $cl_or;
+    }
+  }
+
+  p {
+    color: $cl_or;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    padding: 0px 210px 0px 0px;
+  }
+ 
+    .shopCard{
+    float: right;
+    color: $cl_w;
+    font-size: 30px;
+    cursor: pointer; 
+    &:hover{
+        color: $cl_or;
+    }
+  }
+  .cardList{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: 450px;
+    min-height: 100px;
+    border-radius: 30px 30px 30px 30px ;
+    background-color:$cl_w;
+    }
+  
+}

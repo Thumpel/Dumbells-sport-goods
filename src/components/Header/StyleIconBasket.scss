@@ -1,0 +1,13 @@
+$cl_b: #1B054A;
+$cl_w: #FFFFFF;
+$cl_or: #FAD826;
+$cl_bl: #000000;
+.shopCard{
+  float: right;
+  color: $cl_w;
+  font-size: 30px;
+  cursor: pointer; 
+  &:hover{
+      color: $cl_or;
+  }
+}

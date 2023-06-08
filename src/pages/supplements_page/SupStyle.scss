@@ -1,0 +1,67 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    margin: 0px auto;
+}
+
+$cl_b: #1B054A;
+$cl_w: #FFFFFF;
+$cl_or: #FAD826;
+$cl_bl: #000000;
+
+.supp {
+    text-align: center;
+    font-family: 'Microsoft JhengHei';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 64px;
+    padding: 15px;
+    /* identical to box height */
+    color: $cl_bl ;
+}
+
+.sup_container {
+    display: grid;
+    grid-template: repeat(2, 300px) / repeat(3, 200px);
+    justify-content: space-around;
+    grid-gap: 40px;
+
+    .sup_block {
+        a {
+            text-decoration: none;
+        }
+
+        .price {
+            margin: 50px 0px 0px 0x;
+            width: 200px;
+            height: 25px;
+            color: #FFFFFF;
+            background: $cl_b;
+            text-align: center;
+
+        }
+
+        button {
+            background-color: $cl_b;
+            margin: 10px 0px 0px 0px;
+            width: 200px;
+            height: 50px;
+            border-radius: 0px 0px 30px 30px;
+            color: $cl_w;
+            font-family: 'Archivo';
+            font-size: 25px;
+            font-style: normal;
+            text-align: center;
+
+            &:hover {
+                background-color: rgba(255, 165, 0, 0.5);
+            }
+
+
+        }
+    }
+}
